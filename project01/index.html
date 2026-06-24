@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="locomotive-scroll.min.css">
     <link
   href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
   rel="stylesheet"
@@ -11,22 +12,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="minicircle"></div>
     <div id="main">
-        <!-- <div id="hero">
+        <div id="hero">
             <div id="nav">
                 <a href="#">Cynthia Ugwu</a>
                 <h4>MENU+</h4>
             </div>
             <div id="heading">
-                <h1>Product</h1>
+                <div class="bounding">
+                    <h1 class="boundingelem">Product</h1>
+                </div>
                 <div class="blocktext">
-                    <h1 id="designer">Designer</h1>
-                <h5>BASED IN TORONTO</h5>
+                    <div class="bounding">
+                        <h1 class="boundingelem" id="designer">Designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingelem">BASED IN TORONTO</h5>
+                    </div>
                 </div>
             </div>
             <div id="subheading">
-                <h5>Available for Freelance</h5>
-                <h5>work from Sep 24</h5>
+                <div class="bounding">
+                    <h5 class="boundingelem">Available for Freelance</h5>
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingelem">work from Sep 24</h5>
+                </div>
             </div>
             <div id="herofooter">
                 <a href="#">Previously worked at yml <i class="ri-arrow-right-up-line"></i></a>
@@ -36,25 +48,25 @@
                     <div class="circle"><i class="ri-arrow-down-long-line"></i></div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
-        <!-- <div id="second">
+        <div id="second">
             <div class="elem">
-                <img src="plug.webp" alt="">
+                <img src="./img/plug.webp" alt="">
                 <h1>The Plug</h1>
                 <h5>2022</h5>
             </div>
             <div class="elem">
-                <img src="ixperience.webp" alt="">
+                <img src="./img/ixperience.webp" alt="">
                 <h1>Ixperience</h1>
                 <h5>2022</h5>
             </div>
             <div class="elem elemlast">
-                <img src="somos.webp" alt="">
+                <img src="./img/somos.webp" alt="">
                 <h1>Hudu</h1>
                 <h5>2022</h5>
             </div>
-        </div> -->
+        </div>
         
         <div id="about">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9myNSr60NQgZRQ4Ilgpfuv_ky3dSdFXyLYA&s" alt="">
@@ -65,6 +77,27 @@
             </div>
                 
         </div>
+        
+        <div id="subscribe">
+            <h5>forgot to mention</h5>
+            <h3>subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i></h3>
+        </div>
+        
+        <div id="footer">
+            <div id="footerleft">
+                <h5>2023 &copy</h5>
+                <h5>0:05 AM EST</h5>
+            </div>
+            <div id="footerright">
+                <a href="#">dribble</a><a href="#">instagram</a><a href="#">linkedin</a><a href="#">twitter</a>
+            </div>
+        </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+         integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="  
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
