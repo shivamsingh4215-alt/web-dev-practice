@@ -144,6 +144,7 @@ html,body{
 
 .elem{
     /* position: absolute; */
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -164,11 +165,12 @@ html,body{
 }
 
 .elem img{
-    height: 350px;
-    display: none;
-    /* opacity: 0; */
+    height: 140%;
+    pointer-events: none;
+    opacity: 0;
     z-index: 999;
     position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 #about{
