@@ -1,36 +1,40 @@
 # Cynthia Ugwu Portfolio Clone
 
-A frontend clone of Cynthia Ugwu's portfolio website built for learning modern web development concepts and animations.
+A frontend clone of Cynthia Ugwu's portfolio website built to practice modern frontend development, animations, and responsive design.
 
 ## Tech Stack
 
-* HTML5
-* CSS3
-* JavaScript (Upcoming)
-* GSAP (Upcoming)
+- HTML5
+- CSS3
+- JavaScript
+- GSAP
 
 ## Features
 
-* Responsive Hero Section
-* Modern Portfolio Layout
-* Project Showcase Section
-* About Section
-* Hover Effects
-* Smooth Animations (In Progress)
+- Responsive Layout
+- Hero Section
+- Animated Landing Page
+- Custom Cursor Interaction
+- Smooth GSAP Animations
+- Project Showcase
+- About Section
+- Hover Effects
+- Clean UI
 
 ## Learning Outcomes
 
-* Flexbox Layout
-* CSS Positioning (Relative & Absolute)
-* Responsive Typography
-* Hover Interactions
-* Git & GitHub Workflow
-* Portfolio Website Structure
+- Semantic HTML
+- CSS Flexbox & Positioning
+- Responsive Design
+- JavaScript DOM Manipulation
+- GSAP Animations
+- Git & GitHub Workflow
+- Frontend Project Structure
 
-## Project Status
+## Purpose
 
-🚧 Currently under development.
+This project was built as part of my frontend development learning journey by recreating an existing portfolio website to improve my HTML, CSS, JavaScript, and animation skills.
 
 ## Disclaimer
 
-This project is created for educational and learning purposes only. Design inspiration belongs to Cynthia Ugwu.
+This project is intended for educational purposes only. The original design belongs to Cynthia Ugwu. No copyright infringement is intended.
